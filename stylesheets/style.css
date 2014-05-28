@@ -29,6 +29,18 @@ p {
   opacity: 0.5;
 }
 
+.greyedout {
+	-webkit-opacity: 0.25;
+  	-moz-opacity: 0.25;
+ 	opacity: 0.25;
+}
+
+.greyedout:hover {
+	-webkit-opacity: 1;
+  	-moz-opacity: 1;
+  	opacity: 1;
+}
+
 h4 {
 	text-align: center;
 	font-family: 'Droid Sans Mono';
